@@ -1,0 +1,11 @@
+framework module ExposeBoxSDK {
+  umbrella header "ExposeBoxSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ExposeBoxSDK.Swift {
+    header "ExposeBoxSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ExposeBox_Example' do
+  pod 'ExposeBox', :path => '../'
+
+  target 'ExposeBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

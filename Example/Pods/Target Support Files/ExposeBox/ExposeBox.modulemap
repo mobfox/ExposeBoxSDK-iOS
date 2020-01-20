@@ -1,0 +1,6 @@
+framework module ExposeBox {
+  umbrella header "ExposeBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

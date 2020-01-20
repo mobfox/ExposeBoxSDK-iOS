@@ -1,0 +1,16 @@
+PODS:
+  - ExposeBox (0.9.3)
+
+DEPENDENCIES:
+  - ExposeBox (from `../`)
+
+EXTERNAL SOURCES:
+  ExposeBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExposeBox: 49e53d4031ae0bb8950e66dae12d995b54dd4da4
+
+PODFILE CHECKSUM: ac43570076585f14fbe43bd16edbb1c328230b27
+
+COCOAPODS: 1.8.4
