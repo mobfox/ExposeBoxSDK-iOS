@@ -6,10 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C79A462E99F8F7B2330B5DE2CF3740EE /* ExposeBox */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E250C4DBA2BD99F223AE5470A02E88E6 /* Build configuration list for PBXAggregateTarget "ExposeBox" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ExposeBox;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		019631ADF182F19508287F3E58D243AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0C24AE6123D5AEA500BE84DC /* ExposeBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C24AE6023D5AEA500BE84DC /* ExposeBoxSDK.framework */; };
-		190EB8209043D8F1CEF96348399E5E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1F0DC015947B04FFA600224D32CC4989 /* Pods-ExposeBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91DFF4C79B68BE71B9F82A1FFF6E3C /* Pods-ExposeBox_Example-dummy.m */; };
 		36A1B2102A9D3B55A6146ACAB99C2DD1 /* Pods-ExposeBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 526087A3592B78E2A2D21CFC7CFDA150 /* Pods-ExposeBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615D463E4C400A1EEC4017C92D4BC2BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -36,9 +46,9 @@
 
 /* Begin PBXFileReference section */
 		0732635A7D9936A8F5CE166F0269C6B4 /* Pods-ExposeBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExposeBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		089D5DDCA752874FD52910E13EAD9D84 /* Pods_ExposeBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposeBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C24AE6023D5AEA500BE84DC /* ExposeBoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExposeBoxSDK.framework; sourceTree = "<group>"; };
+		089D5DDCA752874FD52910E13EAD9D84 /* Pods_ExposeBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExposeBox_Tests.framework; path = "Pods-ExposeBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7C3B38518E60148C34338AF2F098E2 /* Pods-ExposeBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExposeBox_Example-Info.plist"; sourceTree = "<group>"; };
+		1640AE0BA99E589FE9B4EE2E79EC5DCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		237199116E98BA8C49DE0511C18DBEC6 /* Pods-ExposeBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExposeBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		276CFDDE67A3391BCACF49A258D84D35 /* Pods-ExposeBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExposeBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -51,13 +61,16 @@
 		83FA51EED586C7CA99CD6D2FABA6E433 /* Pods-ExposeBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExposeBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		89EFC54156AA34A107BCE1EA84A42FC3 /* Pods-ExposeBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExposeBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		92CA9AA2098DA4C6F9A7BA419C473A80 /* Pods-ExposeBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExposeBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D52FE195110C3DE7BC8F46473179827 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC2D5D7C518C9C0B245A8B63C7797E2 /* Pods-ExposeBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExposeBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB69840B915A70A0199EC68AEE5DB05F /* ExposeBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExposeBox.xcconfig; sourceTree = "<group>"; };
 		BC38F47B82B7C082BFA9892623FC2C08 /* Pods-ExposeBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExposeBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC2E0B14819884C7A92D8BD98C6AA19E /* Pods_ExposeBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExposeBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24DB4A76FCA7522C69859DCEDAE2034 /* ExposeBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ExposeBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC2E0B14819884C7A92D8BD98C6AA19E /* Pods_ExposeBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExposeBox_Example.framework; path = "Pods-ExposeBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F250FCEC3C46685B8E87F641C3FA45 /* ExposeBoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposeBoxSDK.framework; path = Example/Pods/ExposeBoxSDK.framework; sourceTree = "<group>"; };
 		E70EACB12AE80B42D97DAE0DC7BB0E8F /* Pods-ExposeBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExposeBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EF91DFF4C79B68BE71B9F82A1FFF6E3C /* Pods-ExposeBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExposeBox_Example-dummy.m"; sourceTree = "<group>"; };
-		FB272F98E895B523014EF96023E3070E /* ExposeBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExposeBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				019631ADF182F19508287F3E58D243AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		818858D4C7176B255C98D8FEC9667DA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				190EB8209043D8F1CEF96348399E5E1B /* Foundation.framework in Frameworks */,
-				0C24AE6123D5AEA500BE84DC /* ExposeBoxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,27 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C24AE5E23D5AE7100BE84DC /* ExposeBox */ = {
+		1B4720788293C58B34C0623D32006A6B /* ExposeBox */ = {
 			isa = PBXGroup;
 			children = (
-				0C24AE5F23D5AE8400BE84DC /* Frameworks */,
+				D932AE69F1C471C72C156F5723C25073 /* Frameworks */,
+				8CD4673A414234FA2737085AADE03147 /* Pod */,
+				31CC232EF8CB5A63B74BAB0D21D4A87E /* Support Files */,
 			);
 			name = ExposeBox;
-			sourceTree = "<group>";
-		};
-		0C24AE5F23D5AE8400BE84DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0C24AE6023D5AEA500BE84DC /* ExposeBoxSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		10553E73A10F543B0B85F63939D1CC3E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Development Pods";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		30BFA991CB761D79845089C5BE7CEEC0 /* Targets Support Files */ = {
@@ -137,14 +129,13 @@
 			path = "Target Support Files/Pods-ExposeBox_Tests";
 			sourceTree = "<group>";
 		};
-		3A64BFA08D4C92A0D66241A8E8ED22E6 /* Products */ = {
+		31CC232EF8CB5A63B74BAB0D21D4A87E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB272F98E895B523014EF96023E3070E /* ExposeBox.framework */,
-				CC2E0B14819884C7A92D8BD98C6AA19E /* Pods_ExposeBox_Example.framework */,
-				089D5DDCA752874FD52910E13EAD9D84 /* Pods_ExposeBox_Tests.framework */,
+				BB69840B915A70A0199EC68AEE5DB05F /* ExposeBox.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ExposeBox";
 			sourceTree = "<group>";
 		};
 		519C4377DA20B4D0052D2ABA005EB3DB /* Pods-ExposeBox_Example */ = {
@@ -164,6 +155,33 @@
 			path = "Target Support Files/Pods-ExposeBox_Example";
 			sourceTree = "<group>";
 		};
+		8CD4673A414234FA2737085AADE03147 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C24DB4A76FCA7522C69859DCEDAE2034 /* ExposeBox.podspec */,
+				1640AE0BA99E589FE9B4EE2E79EC5DCB /* LICENSE */,
+				9D52FE195110C3DE7BC8F46473179827 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B065AA423C2437F2C3A411C1B34BECAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2E0B14819884C7A92D8BD98C6AA19E /* Pods_ExposeBox_Example.framework */,
+				089D5DDCA752874FD52910E13EAD9D84 /* Pods_ExposeBox_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D92E48D85A1DA1C554FF1E7B424EED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4720788293C58B34C0623D32006A6B /* ExposeBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,9 +194,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				10553E73A10F543B0B85F63939D1CC3E /* Development Pods */,
+				B6D92E48D85A1DA1C554FF1E7B424EED /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3A64BFA08D4C92A0D66241A8E8ED22E6 /* Products */,
+				B065AA423C2437F2C3A411C1B34BECAC /* Products */,
 				30BFA991CB761D79845089C5BE7CEEC0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -186,8 +204,15 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C24AE5E23D5AE7100BE84DC /* ExposeBox */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D932AE69F1C471C72C156F5723C25073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5F250FCEC3C46685B8E87F641C3FA45 /* ExposeBoxSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,13 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A1B2102A9D3B55A6146ACAB99C2DD1 /* Pods-ExposeBox_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D2A6FDE2B7925EAF9F8B9E61C805FC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,24 +277,6 @@
 			productReference = 089D5DDCA752874FD52910E13EAD9D84 /* Pods_ExposeBox_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C79A462E99F8F7B2330B5DE2CF3740EE /* ExposeBox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD64BB77B6F4D3EC679ECCECD99DAE53 /* Build configuration list for PBXNativeTarget "ExposeBox" */;
-			buildPhases = (
-				4D2A6FDE2B7925EAF9F8B9E61C805FC8 /* Headers */,
-				E1B311F7100DD4BB5FE51F230449ACA6 /* Sources */,
-				818858D4C7176B255C98D8FEC9667DA6 /* Frameworks */,
-				4B29F7AA468649FEEA52098460667809 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ExposeBox;
-			productName = ExposeBox;
-			productReference = FB272F98E895B523014EF96023E3070E /* ExposeBox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,7 +295,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3A64BFA08D4C92A0D66241A8E8ED22E6 /* Products */;
+			productRefGroup = B065AA423C2437F2C3A411C1B34BECAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -307,13 +307,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B29F7AA468649FEEA52098460667809 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F06EAF7D2771B55A76643A70802778E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,13 +340,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1B311F7100DD4BB5FE51F230449ACA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -372,40 +358,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04AAFEFB857830B85C7C0357975B87EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PREFIX_HEADER = "Target Support Files/ExposeBox/ExposeBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ExposeBox/ExposeBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ExposeBox/ExposeBox.modulemap";
-				PRODUCT_MODULE_NAME = ExposeBox;
-				PRODUCT_NAME = ExposeBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		135F9D7FF6A4A179EC8A64F62B00B8CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 237199116E98BA8C49DE0511C18DBEC6 /* Pods-ExposeBox_Tests.debug.xcconfig */;
@@ -506,6 +458,33 @@
 			};
 			name = Debug;
 		};
+		8A7F4CC98FB559F06AB5083810B7EEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB69840B915A70A0199EC68AEE5DB05F /* ExposeBox.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34CFD1F1B149EF6A98A35000E50432F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB69840B915A70A0199EC68AEE5DB05F /* ExposeBox.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -559,7 +538,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -629,41 +609,6 @@
 			};
 			name = Debug;
 		};
-		D2A0E58F9AB7936F97AC38B0E806364F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PREFIX_HEADER = "Target Support Files/ExposeBox/ExposeBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ExposeBox/ExposeBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ExposeBox/ExposeBox.modulemap";
-				PRODUCT_MODULE_NAME = ExposeBox;
-				PRODUCT_NAME = ExposeBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E280DCF3357C2EBA06E8F827085E04F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EE2F3926BFBADD6B6C6B14E47534C89 /* Pods-ExposeBox_Tests.release.xcconfig */;
@@ -719,11 +664,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD64BB77B6F4D3EC679ECCECD99DAE53 /* Build configuration list for PBXNativeTarget "ExposeBox" */ = {
+		E250C4DBA2BD99F223AE5470A02E88E6 /* Build configuration list for PBXAggregateTarget "ExposeBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04AAFEFB857830B85C7C0357975B87EE /* Debug */,
-				D2A0E58F9AB7936F97AC38B0E806364F /* Release */,
+				A34CFD1F1B149EF6A98A35000E50432F /* Debug */,
+				8A7F4CC98FB559F06AB5083810B7EEE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

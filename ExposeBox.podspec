@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExposeBox'
-  s.version          = '0.9.2'
+  s.version          = '0.9.4'
   s.summary          = 'ExposeBox iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   s.swift_versions = '5.0'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ExposeBox/Classes/**/*'
+  s.ios.vendored_frameworks = 'Example/Pods/ExposeBoxSDK.framework'
   
   # s.resource_bundles = {
   #   'ExposeBox' => ['ExposeBox/Assets/*.png']

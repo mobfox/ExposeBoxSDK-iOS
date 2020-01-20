@@ -1,5 +1,5 @@
 PODS:
-  - ExposeBox (0.9.2)
+  - ExposeBox (0.9.3)
 
 DEPENDENCIES:
   - ExposeBox (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ExposeBox: c7b0fb6180d60c1b061731cc8d50445fba9e5810
+  ExposeBox: 49e53d4031ae0bb8950e66dae12d995b54dd4da4
 
 PODFILE CHECKSUM: ac43570076585f14fbe43bd16edbb1c328230b27
 
