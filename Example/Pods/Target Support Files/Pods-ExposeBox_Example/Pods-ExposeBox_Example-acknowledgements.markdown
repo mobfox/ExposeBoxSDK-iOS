@@ -3,7 +3,8 @@ This application makes use of the following third party libraries:
 
 ## ExposeBox
 
-Copyright (c) 2020 Viktor Shchepanovskyi <viktor.shchepanovskyi@market.com>
+MIT License
+Copyright (c) 2020 Market.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

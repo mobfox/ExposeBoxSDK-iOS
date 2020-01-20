@@ -1,5 +1,5 @@
 import XCTest
-import ExposeBox
+import ExposeBoxSDK
 
 class Tests: XCTestCase {
     

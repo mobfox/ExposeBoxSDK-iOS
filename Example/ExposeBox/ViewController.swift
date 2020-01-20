@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ExposeBox
+import ExposeBoxSDK
 
 class ViewController: UIViewController {
 
