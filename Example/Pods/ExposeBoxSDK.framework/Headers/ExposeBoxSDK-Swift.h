@@ -368,7 +368,7 @@ SWIFT_CLASS("_TtC12ExposeBoxSDK28ExposeBoxRealImpressionBatch")
 ///
 /// \param items Items key value pairs
 ///
-- (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId widgetId:(NSInteger)widgetId items:(NSDictionary<NSString *, NSString *> * _Nonnull)items OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId widgetId:(NSInteger)widgetId items:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)items OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -759,7 +759,7 @@ SWIFT_CLASS("_TtC12ExposeBoxSDK28ExposeBoxRealImpressionBatch")
 ///
 /// \param items Items key value pairs
 ///
-- (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId widgetId:(NSInteger)widgetId items:(NSDictionary<NSString *, NSString *> * _Nonnull)items OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId widgetId:(NSInteger)widgetId items:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)items OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
