@@ -225,6 +225,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ExposeBox * 
 @class ExposeBoxCustomerData;
 @class ExposeBoxCartProduct;
 @class ExposeBoxRealImpressionBatch;
+@class ExposeBoxPlacement;
 
 @interface ExposeBox (SWIFT_EXTENSION(ExposeBoxSDK))
 /// View event, send when item (or screen) is viewed,
@@ -295,7 +296,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ExposeBox * 
 ///
 /// \param completion handler for received response data
 ///
-- (void)recommendationsWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(id _Nullable, NSError * _Nullable))completion;
+- (void)recommendationsWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(NSArray<ExposeBoxPlacement *> * _Nullable, NSError * _Nullable))completion;
+/// Request recommendations for user, result as raw
+/// \param placementIds array of placement identifiers
+///
+/// \param completion handler for received response data
+///
+- (void)recommendationsDataWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(id _Nullable, NSError * _Nullable))completion;
 /// Add product to <em>Wishlist</em>
 /// \param productId identifier of Product
 ///
@@ -609,6 +616,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ExposeBox * 
 @class ExposeBoxCustomerData;
 @class ExposeBoxCartProduct;
 @class ExposeBoxRealImpressionBatch;
+@class ExposeBoxPlacement;
 
 @interface ExposeBox (SWIFT_EXTENSION(ExposeBoxSDK))
 /// View event, send when item (or screen) is viewed,
@@ -679,7 +687,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ExposeBox * 
 ///
 /// \param completion handler for received response data
 ///
-- (void)recommendationsWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(id _Nullable, NSError * _Nullable))completion;
+- (void)recommendationsWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(NSArray<ExposeBoxPlacement *> * _Nullable, NSError * _Nullable))completion;
+/// Request recommendations for user, result as raw
+/// \param placementIds array of placement identifiers
+///
+/// \param completion handler for received response data
+///
+- (void)recommendationsDataWithPlacementIds:(NSArray<NSString *> * _Nonnull)placementIds completion:(void (^ _Nonnull)(id _Nullable, NSError * _Nullable))completion;
 /// Add product to <em>Wishlist</em>
 /// \param productId identifier of Product
 ///
