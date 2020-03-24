@@ -48,10 +48,10 @@ class ViewController: UIViewController {
         }),
         ActionBinding(name: "Send Customer Data",
                       action: {
-                        let customerData = ExposeBoxCustomerData(email: "EMAIL")
-                        customerData.firstName = "FIRST"
-                        customerData.lastName = "LAST"
-                        customerData.customerId = "ID"
+                        let customerData = ExposeBoxCustomerData(email: "iostest@exposebox.com")
+                        customerData.firstName = "John"
+                        customerData.lastName = "Sunny"
+                        customerData.customerId = "65743987"
                         customerData.additionalInfo = ["CUSTOM": "DATA"]
                         ExposeBox.shared.setCustomerData(customerData)
         }),
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         }),
         ActionBinding(name: "Real Impression",
                       action: {
-                         ExposeBox.shared.realImpression([ExposeBoxRealImpressionBatch(placementId: "dashboard", widgetId: 1, items: ["String" : "String"])])
+                         ExposeBox.shared.realImpression([ExposeBoxRealImpressionBatch(placementId: "dashboard", widgetId: 1, items: [["String" : "String"]] )])
         }),
         ActionBinding(name: "Add to Wishlist",
                       action: {
@@ -108,7 +108,7 @@ class ViewController: UIViewController {
 
     func setup() {
         let expose = ExposeBox.shared
-        expose.companyId = "12345" // init with your company id
+        expose.companyId = "30510" // init with your company id
         expose.versboseLogging = true
     }
 
