@@ -484,7 +484,7 @@
 			baseConfigurationReference = 69675ED75C8EF7C9C5F3549F /* Pods-ExposeBox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 484U8972BW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ExposeBox/Info.plist;
@@ -503,7 +503,7 @@
 			baseConfigurationReference = F54E8606F143383AC9A1964C /* Pods-ExposeBox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 484U8972BW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ExposeBox/Info.plist;
