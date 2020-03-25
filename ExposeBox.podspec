@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ExposeBox'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ExposeBox iOS SDK'
 
 # This description is used to generate tags and improve search results.

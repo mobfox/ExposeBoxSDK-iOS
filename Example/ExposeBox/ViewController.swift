@@ -40,11 +40,11 @@ class ViewController: UIViewController {
         }),
         ActionBinding(name: "Add to Cart",
                       action: {
-                         ExposeBox.shared.addToCart(productId: "someid", quantity: 23, unitPrice: 22.2)
+                         ExposeBox.shared.addToCart(productId: "2222", quantity: 23, unitPrice: 22.2)
         }),
         ActionBinding(name: "Remove from Cart",
                       action: {
-                         ExposeBox.shared.removeFromCart(productId: "someid", quantity: 20)
+                         ExposeBox.shared.removeFromCart(productId: "2222", quantity: 20)
         }),
         ActionBinding(name: "Send Customer Data",
                       action: {
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         }),
         ActionBinding(name: "Send Order / Conversion",
                       action: {
-                         ExposeBox.shared.conversion(orderId: "234", totalPrice: 22.2, cartProducts: [ExposeBoxCartProduct(productId: "22", quantity: 1, unitPrice: 1)])
+                         ExposeBox.shared.conversion(orderId: "234", totalPrice: 22.2, cartProducts: [ExposeBoxCartProduct(productId: "2222", quantity: 1, unitPrice: 1)])
         }),
         ActionBinding(name: "Send Event",
                       action: {
