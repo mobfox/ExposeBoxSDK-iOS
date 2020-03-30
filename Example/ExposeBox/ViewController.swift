@@ -52,7 +52,7 @@ class ViewController: UIViewController {
                         customerData.firstName = "John"
                         customerData.lastName = "Sunny"
                         customerData.customerId = "65743987"
-                        customerData.additionalInfo = ["CUSTOM": "DATA"]
+                        customerData.freeData = ["position": "manager"]
                         ExposeBox.shared.setCustomerData(customerData)
         }),
         ActionBinding(name: "Send Order / Conversion",
